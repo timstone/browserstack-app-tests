@@ -1,0 +1,15 @@
+server: "hub-cloud.browserstack.com"
+user: "BROWSERSTACK_USERNAME"
+key: "BROWSERSTACK_ACCESS_KEY"
+
+common_caps:
+  "build": "cucumber-browserstack"
+  "browserstack.debug": true
+
+  
+browser_caps:
+  -
+    "device": "iPhone 7"
+    "app": "bs://86b14062ebf1b8e93fa9d28f16bdb5fc0d4eac2a"
+    "name": "single_test"
+
