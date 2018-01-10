@@ -1,6 +1,6 @@
 server: "hub-cloud.browserstack.com"
 user: "BROWSERSTACK_USERNAME"
-key: "BROWSERSTACK_ACCESS_KEY"
+key: "BROWSERSTACK_AUTH_KEY"
 
 common_caps:
   "build": "cucumber-browserstack"
@@ -10,6 +10,7 @@ common_caps:
 browser_caps:
   -
     "device": "iPhone 7"
-    "app": "bs://86b14062ebf1b8e93fa9d28f16bdb5fc0d4eac2a"
+    "app": "bs://28b4d9102c7d76407644d4a496c6d1ac14fd3590"
     "name": "single_test"
+    "browserstack.video": "true"
 
